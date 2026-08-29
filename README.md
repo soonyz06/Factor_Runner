@@ -12,11 +12,9 @@ The runner lives in a private research repo; this repo holds only its output.
 | Report | Scope | PDF |
 |---|---|---|
 | All available registered signals | 99 signals represented by 88 FMPs; 167 common months | [PDF](outputs/2026-08-29_all-available-registered-signals.pdf) |
-| Earnings surprise | surprisePercentage, surprise; 241 common months, full universe (5,857 symbols) | [PDF](outputs/2026-08-29_earnings-surprise.pdf) |
-| Illiquidity premium | amihud_illiq_21d, dollar_volume_21d; 230 common months, full universe | [PDF](outputs/2026-08-29_illiquidity-premium.pdf) |
+| Earnings surprise | surprisePercentage, surprise; top 37.5% by market cap; 240 common months, full universe (5,857 symbols) | [PDF](outputs/2026-08-29_earnings-surprise.pdf) |
+| Illiquidity premium | amihud_illiq_21d, dollar_volume_21d; top 37.5% by market cap; 230 common months, full universe | [PDF](outputs/2026-08-29_illiquidity-premium.pdf) |
 | Free cash flow: level, margin, yield | fcf, fcf_margin, fcf_yield; 231 common months, full universe | [PDF](outputs/2026-08-29_fcf-level-margin-yield.pdf) |
-| Revenue positivity, long only | is_positive_revenue=1 held long-only; 248 common months, full universe | [PDF](outputs/2026-08-29_revenue-positivity-long-only.pdf) |
-| Revenue positivity, short side | is_positive_revenue=0 held long-only (the short leg as its own book); 248 common months, full universe | [PDF](outputs/2026-08-29_revenue-positivity-short-side.pdf) |
 
 ## Running it
 
