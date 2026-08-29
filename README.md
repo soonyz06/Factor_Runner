@@ -11,7 +11,7 @@ The runner lives in a private research repo; this repo holds only its output.
 
 | Report | Scope | PDF |
 |---|---|---|
-| All available registered signals | 99 signals represented by 88 FMPs; 167 common months | [PDF](outputs/2026-08-29_all-available-registered-signals.pdf) |
+| All available registered signals | 115 factors covering 126 registered signals; top 37.5% by market cap; 167 common months, full universe (6,019 symbols) | [PDF](outputs/2026-08-29_all-available-registered-signals.pdf) |
 | Earnings surprise | surprisePercentage, surprise; top 37.5% by market cap; 240 common months, full universe (5,857 symbols) | [PDF](outputs/2026-08-29_earnings-surprise.pdf) |
 | Illiquidity premium | amihud_illiq_21d, dollar_volume_21d; top 37.5% by market cap; 230 common months, full universe | [PDF](outputs/2026-08-29_illiquidity-premium.pdf) |
 | Free cash flow: level, margin, yield | fcf, fcf_margin, fcf_yield; 231 common months, full universe | [PDF](outputs/2026-08-29_fcf-level-margin-yield.pdf) |
