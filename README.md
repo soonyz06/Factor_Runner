@@ -7,6 +7,14 @@ abstract written to be read *instead of* the report.
 
 The runner lives in a private research repo; this repo holds only its output.
 
+## Latest catalogues
+
+| Report | Scope | PDF |
+|---|---|---|
+| Standard model, published construction | VAL, MOM, BAB and QMJ; 212 common months | [PDF](outputs/2026-08-29_standard-model-published-construction.pdf) |
+| GPOA plus EBIT/EV | Two standalone candidate factors; 231 common months | [PDF](outputs/2026-08-29_gpoa-plus-ebit-ev.pdf) |
+| All available registered signals | 99 signals represented by 88 FMPs; 167 common months | [PDF](outputs/2026-08-29_all-available-registered-signals.pdf) |
+
 ## Running it
 
 You never edit the runner to test an idea. You add one declarative config and point `--config` at
