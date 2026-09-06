@@ -14,12 +14,17 @@ The runner lives in a private research repo; this repo holds only its output.
 | Original automatic factor grouping, top 90% of names | No pre-cluster Sharpe screen; exposure clustering followed by PCA/varimax into five frozen factors | [PDF](outputs/2026-09-06_automatic-factor-grouping-top-90.pdf) |
 | Original grouped factor model, in sample | Original five-factor construction; 2012--2022, 131 monthly returns; combined Sharpe 0.910 | [PDF](outputs/2026-09-06_grouped-factor-model-top-90-is.pdf) |
 | Original grouped factor model, out of sample | Frozen construction; 2023--2026-07, 43 monthly returns; combined Sharpe 0.239 | [PDF](outputs/2026-09-06_grouped-factor-model-top-90-oos.pdf) |
-| One-shot Sharpe-screened grouping, top 90% of names | Full-period oriented Sharpe > 0; 140/140 signals retained, 85 primitive groups and five frozen factors | [PDF](outputs/2026-09-06_automatic-factor-grouping-top-90-one-shot.pdf) |
-| One-shot grouped factor model, in sample | One-shot-screened construction; 2012--2022, 131 monthly returns; combined Sharpe 0.910 | [PDF](outputs/2026-09-06_grouped-factor-model-top-90-one-shot-is.pdf) |
-| One-shot grouped factor model, out of sample | Frozen construction; 2023--2026-07, 43 monthly returns; combined Sharpe 0.239 | [PDF](outputs/2026-09-06_grouped-factor-model-top-90-one-shot-oos.pdf) |
 | Bootstrap Sharpe-screened grouping, top 90% of names | 2,000 stationary-block resamples; 100/140 signals retained, 62 primitive groups and five frozen factors | [PDF](outputs/2026-09-06_automatic-factor-grouping-top-90-bootstrap.pdf) |
 | Bootstrap-screened grouped factor model, in sample | Bootstrap-screened construction; 2012--2022, 131 monthly returns; combined Sharpe 1.096 | [PDF](outputs/2026-09-06_grouped-factor-model-top-90-bootstrap-is.pdf) |
 | Bootstrap-screened grouped factor model, out of sample | Frozen construction; 2023--2026-07, 43 monthly returns; combined Sharpe 0.577 | [PDF](outputs/2026-09-06_grouped-factor-model-top-90-bootstrap-oos.pdf) |
+| No clustering, bootstrap Sharpe > 0, in sample | 100 admitted signals used as 100 single-signal factors; 2012--2022; combined Sharpe 1.366 | [PDF](outputs/2026-09-07_no-clustering-screen-sharpe-0-is.pdf) |
+| No clustering, bootstrap Sharpe > 0, out of sample | Frozen 100-factor construction; 2023--2026-07; combined Sharpe 1.255 | [PDF](outputs/2026-09-07_no-clustering-screen-sharpe-0-oos.pdf) |
+| No clustering, bootstrap Sharpe > 0.5, in sample | 21 admitted signals used as 21 single-signal factors; 2012--2022; combined Sharpe 2.330 | [PDF](outputs/2026-09-07_no-clustering-screen-sharpe-0-5-is.pdf) |
+| No clustering, bootstrap Sharpe > 0.5, out of sample | Frozen 21-factor construction; 2023--2026-07; combined Sharpe 0.867 | [PDF](outputs/2026-09-07_no-clustering-screen-sharpe-0-5-oos.pdf) |
+| No clustering, bootstrap Sharpe > 1, in sample | Five admitted signals used as five single-signal factors; 2012--2022; combined Sharpe 1.246 | [PDF](outputs/2026-09-07_no-clustering-screen-sharpe-1-is.pdf) |
+| No clustering, bootstrap Sharpe > 1, out of sample | Frozen five-factor construction; 2023--2026-07; combined Sharpe 0.374 | [PDF](outputs/2026-09-07_no-clustering-screen-sharpe-1-oos.pdf) |
+| Direct HDBSCAN, no PCA/varimax, in sample | Sharpe > 0 survivors clustered directly into seven signed factors; 2012--2022; combined Sharpe 1.380 | [PDF](outputs/2026-09-07_direct-hdbscan-no-pca-varimax-is.pdf) |
+| Direct HDBSCAN, no PCA/varimax, out of sample | Frozen seven-factor construction; 2023--2026-07; combined Sharpe 1.191 | [PDF](outputs/2026-09-07_direct-hdbscan-no-pca-varimax-oos.pdf) |
 
 ## Running it
 
