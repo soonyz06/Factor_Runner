@@ -11,9 +11,9 @@ The runner lives in a private research repo; this repo holds only its output.
 
 | Report | Scope | PDF |
 |---|---|---|
-| Automatic factor grouping, top 90% of names | Exposure clustering followed by PCA/varimax; five frozen factors | [PDF](outputs/2026-09-06_automatic-factor-grouping-top-90.pdf) |
-| Frozen grouped factor model, in sample | Identical five-factor construction; 2012--2022, 131 monthly returns | [PDF](outputs/2026-09-06_grouped-factor-model-top-90-is.pdf) |
-| Frozen grouped factor model, out of sample | No refitting or sign changes; 2023--2026-07, 43 monthly returns | [PDF](outputs/2026-09-06_grouped-factor-model-top-90-oos.pdf) |
+| Automatic factor grouping, top 90% of names | One-shot full-period Sharpe > 0 admission; 140/140 signals retained, 85 primitive groups and five frozen factors | [PDF](outputs/2026-09-06_automatic-factor-grouping-top-90.pdf) |
+| Frozen grouped factor model, in sample | Identical five-factor construction; 2012--2022, 131 monthly returns; combined Sharpe 0.910 | [PDF](outputs/2026-09-06_grouped-factor-model-top-90-is.pdf) |
+| Frozen grouped factor model, out of sample | No refitting or sign changes; 2023--2026-07, 43 monthly returns; combined Sharpe 0.239 | [PDF](outputs/2026-09-06_grouped-factor-model-top-90-oos.pdf) |
 
 ## Running it
 
