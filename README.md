@@ -11,9 +11,15 @@ The runner lives in a private research repo; this repo holds only its output.
 
 | Report | Scope | PDF |
 |---|---|---|
-| Automatic factor grouping, top 90% of names | One-shot full-period Sharpe > 0 admission; 140/140 signals retained, 85 primitive groups and five frozen factors | [PDF](outputs/2026-09-06_automatic-factor-grouping-top-90.pdf) |
-| Frozen grouped factor model, in sample | Identical five-factor construction; 2012--2022, 131 monthly returns; combined Sharpe 0.910 | [PDF](outputs/2026-09-06_grouped-factor-model-top-90-is.pdf) |
-| Frozen grouped factor model, out of sample | No refitting or sign changes; 2023--2026-07, 43 monthly returns; combined Sharpe 0.239 | [PDF](outputs/2026-09-06_grouped-factor-model-top-90-oos.pdf) |
+| Original automatic factor grouping, top 90% of names | No pre-cluster Sharpe screen; exposure clustering followed by PCA/varimax into five frozen factors | [PDF](outputs/2026-09-06_automatic-factor-grouping-top-90.pdf) |
+| Original grouped factor model, in sample | Original five-factor construction; 2012--2022, 131 monthly returns; combined Sharpe 0.910 | [PDF](outputs/2026-09-06_grouped-factor-model-top-90-is.pdf) |
+| Original grouped factor model, out of sample | Frozen construction; 2023--2026-07, 43 monthly returns; combined Sharpe 0.239 | [PDF](outputs/2026-09-06_grouped-factor-model-top-90-oos.pdf) |
+| One-shot Sharpe-screened grouping, top 90% of names | Full-period oriented Sharpe > 0; 140/140 signals retained, 85 primitive groups and five frozen factors | [PDF](outputs/2026-09-06_automatic-factor-grouping-top-90-one-shot.pdf) |
+| One-shot grouped factor model, in sample | One-shot-screened construction; 2012--2022, 131 monthly returns; combined Sharpe 0.910 | [PDF](outputs/2026-09-06_grouped-factor-model-top-90-one-shot-is.pdf) |
+| One-shot grouped factor model, out of sample | Frozen construction; 2023--2026-07, 43 monthly returns; combined Sharpe 0.239 | [PDF](outputs/2026-09-06_grouped-factor-model-top-90-one-shot-oos.pdf) |
+| Bootstrap Sharpe-screened grouping, top 90% of names | 2,000 stationary-block resamples; 100/140 signals retained, 62 primitive groups and five frozen factors | [PDF](outputs/2026-09-06_automatic-factor-grouping-top-90-bootstrap.pdf) |
+| Bootstrap-screened grouped factor model, in sample | Bootstrap-screened construction; 2012--2022, 131 monthly returns; combined Sharpe 1.096 | [PDF](outputs/2026-09-06_grouped-factor-model-top-90-bootstrap-is.pdf) |
+| Bootstrap-screened grouped factor model, out of sample | Frozen construction; 2023--2026-07, 43 monthly returns; combined Sharpe 0.577 | [PDF](outputs/2026-09-06_grouped-factor-model-top-90-bootstrap-oos.pdf) |
 
 ## Running it
 
